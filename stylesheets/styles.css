@@ -7,6 +7,7 @@ body
 a
 {
   text-decoration: none;
+  color:orange;
 }
 
 ul
@@ -14,6 +15,11 @@ ul
   margin: 20% 0 0% 0%;
 }
 
+p
+{
+  font-family: "Open Sans";
+
+}
 ul li
 {
   list-style: none;
@@ -33,7 +39,7 @@ ul li a p
   padding: .3em 1em .3em;
   text-decoration: none;
   color: white;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 
@@ -47,6 +53,14 @@ h1
   line-height: 32px;
   text-align: center;
   color: black;
+}
+
+h2
+{
+  font-family: Roboto,Arial;
+  color:gray; 
+  border-bottom:1px solid white; 
+  padding-bottom:0.5em;
 }
 
 h3
@@ -93,9 +107,15 @@ div.sidebar_userimage img
 {
 
   border-radius: 26px;
-  width: 75px;
+  width: 100px;
   padding: 7px;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
+  transition: ease-in all 0.5s; 
+}
+
+div.sidebar_userimage img:hover
+{
+  transform: scale(1.5,1.5);
 }
 
 div.comunidad-autoria
@@ -157,5 +177,5 @@ div.bloque
 div.bloque p
 {
   color: rgb(255, 255, 255);
-  line-height: 1.9em;
+  line-height: 1.8em;
 }
