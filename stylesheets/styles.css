@@ -7,7 +7,12 @@ body
 a
 {
   text-decoration: none;
-  color:orange;
+  color:#FFBF00;
+}
+
+a:hover
+{
+  color: orange;
 }
 
 ul
